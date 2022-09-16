@@ -1,0 +1,15 @@
+#cbo-carga{
+    color: blue;
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 15%;
+    font-size: larger;
+    border-radius: 15px;
+    border-style: ridge;
+    border-color: blue;
+}
+#cbo-carga:hover{
+    background-color:rgb(255, 212, 138);
+    color: orangered;
+    border-color: orange;
+}
