@@ -8,12 +8,10 @@ btnCarga.addEventListener('click', (e)=>{
     .then(response => response.json())
     .then(data=>{
         console.log(data);
-        
+
         let tr = document.getElementById('poke');
         
-        tr.innerHTML  += `<td> <img src='${data.sprites.front_shiny}'><br> Nombre: ${data.name}</td>`
-        
-    
+        tr.innerHTML  += `<td> <img src='${data.sprites.front_shiny}'><br> Nombre: ${data.name} </td>`
  
         
     })
